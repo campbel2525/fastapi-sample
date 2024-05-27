@@ -36,11 +36,11 @@ fastapi や next.js は勉強中ですので、何か不備がありましたら
 
 ## サンプルユーザー
 
-管理側
+管理側  
 admin1@example.com  
 test1234
 
-ユーザー側
+ユーザー側  
 user1@example.com  
 test1234
 
