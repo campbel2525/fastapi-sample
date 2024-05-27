@@ -104,7 +104,7 @@ http://localhost:3001/
 
 # iac について
 
-参照
+[参照](https://github.com/campbel2525/project-sample/blob/main/infrastructure/terraform/README.md)
 
 # その他
 
