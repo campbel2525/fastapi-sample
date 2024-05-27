@@ -46,11 +46,11 @@ test1234
 
 ## 環境構築方法
 
-手順 1
+手順 1  
 pc に docker が入っていない方は docker のインストールをしてください
 公式サイト: https://code.visualstudio.com/download
 
-手順 2
+手順 2  
 下記のコマンドを実行して docker の開発環境を作成します
 
 ```
@@ -58,7 +58,8 @@ make cp-env
 make init
 ```
 
-手順 3 admin-api の立ち上げ方法
+手順 3  
+admin-api の立ち上げ方法
 
 ```
 make admin-api-run
@@ -68,7 +69,8 @@ make admin-api-run
 http://localhost:8000/docks
 にアクセスする
 
-手順 4 admin-front の立ち上げ方法
+手順 4  
+admin-front の立ち上げ方法
 
 ```
 make admin-front-run
@@ -78,7 +80,8 @@ make admin-front-run
 http://localhost:3000/
 にアクセスする
 
-手順 5 user-api の立ち上げ方法
+手順 5  
+user-api の立ち上げ方法
 
 ```
 make user-api-run
@@ -88,7 +91,8 @@ make user-api-run
 http://localhost:8001/
 にアクセスする
 
-手順 6 user-front の立ち上げ方法
+手順 6  
+user-front の立ち上げ方法
 
 ```
 make user-front-run
