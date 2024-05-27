@@ -8,7 +8,7 @@ resource "aws_codebuild_project" "predploy" {
 
   source {
     type      = "CODEPIPELINE"
-    buildspec = "infrastructures/buildspecs/buildspec-predeploy.yml"
+    buildspec = "infrastructure/buildspecs/buildspec-predeploy.yml"
   }
 
   artifacts {
@@ -40,11 +40,6 @@ resource "aws_codebuild_project" "predploy" {
     environment_variable {
       name  = "AWS_ACCOUNT_ID"
       value = var.aws_account_id
-    }
-
-    environment_variable {
-      name  = "AWS_REGION"
-      value = var.aws_region
     }
   }
 
@@ -72,7 +67,7 @@ resource "aws_codebuild_project" "admin_api" {
 
   source {
     type      = "CODEPIPELINE"
-    buildspec = "infrastructures/buildspecs/buildspec-api.yml"
+    buildspec = "infrastructure/buildspecs/buildspec-api.yml"
   }
 
   artifacts {
@@ -105,11 +100,6 @@ resource "aws_codebuild_project" "admin_api" {
       name  = "AWS_ACCOUNT_ID"
       value = var.aws_account_id
     }
-
-    environment_variable {
-      name  = "AWS_REGION"
-      value = var.aws_region
-    }
   }
 }
 
@@ -123,7 +113,7 @@ resource "aws_codebuild_project" "admin_front" {
 
   source {
     type      = "CODEPIPELINE"
-    buildspec = "infrastructures/buildspecs/buildspec-front.yml"
+    buildspec = "infrastructure/buildspecs/buildspec-front.yml"
   }
 
   artifacts {
@@ -156,11 +146,6 @@ resource "aws_codebuild_project" "admin_front" {
       name  = "AWS_ACCOUNT_ID"
       value = var.aws_account_id
     }
-
-    environment_variable {
-      name  = "AWS_REGION"
-      value = var.aws_region
-    }
   }
 }
 
@@ -175,7 +160,7 @@ resource "aws_codebuild_project" "user_api" {
 
   source {
     type      = "CODEPIPELINE"
-    buildspec = "infrastructures/buildspecs/buildspec-api.yml"
+    buildspec = "infrastructure/buildspecs/buildspec-api.yml"
   }
 
   artifacts {
@@ -208,11 +193,6 @@ resource "aws_codebuild_project" "user_api" {
       name  = "AWS_ACCOUNT_ID"
       value = var.aws_account_id
     }
-
-    environment_variable {
-      name  = "AWS_REGION"
-      value = var.aws_region
-    }
   }
 }
 
@@ -226,7 +206,7 @@ resource "aws_codebuild_project" "user_front" {
 
   source {
     type      = "CODEPIPELINE"
-    buildspec = "infrastructures/buildspecs/buildspec-front.yml"
+    buildspec = "infrastructure/buildspecs/buildspec-front.yml"
   }
 
   artifacts {
@@ -258,11 +238,6 @@ resource "aws_codebuild_project" "user_front" {
     environment_variable {
       name  = "AWS_ACCOUNT_ID"
       value = var.aws_account_id
-    }
-
-    environment_variable {
-      name  = "AWS_REGION"
-      value = var.aws_region
     }
   }
 }
