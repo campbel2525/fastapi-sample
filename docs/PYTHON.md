@@ -57,7 +57,7 @@ class OrderMixin:
 - app/models のみモジュール化して使用するようにするように統一する？
   - リレーションの関係から、モジュールにした方がいい気がする
 - jwt のアルゴリズムを HS256->RS256(cognito と同じ)にする
-- 復習を兼ねて terraform のコードを追加する
+- ~~復習を兼ねて terraform のコードを追加する~~
 - ~~シーダーの導入、ファクトリーの導入~~
 - ~~DB リセットコマンドの作成~~
 - エラーハンドラー追加
@@ -81,4 +81,4 @@ migration: database/migrations
 enum: app/enums
 ログ: logs
 テストケース: tests
-ドキュメントをまとめるフォルダ: doc
+ドキュメントをまとめるフォルダ: docs
