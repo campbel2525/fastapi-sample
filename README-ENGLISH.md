@@ -183,25 +183,6 @@ or
 make migrate
 ```
 
-# assignment
-
-1. Change authentication to sha512 etc.
-2. Get approval?
-3. Disadvantages of monorepo
-
-- Namespace error occurs in import statement in each project
-  In python, you cannot jump to the reference source of the library. Node (php as well) can fly, so there must be some way.
-  The solution is to attach it to the container and open vscode.
-  I was able to confirm that it would work if I used workspace and placed ./vscode/settings.json in each folder, but it may be a little tricky since multiple files are opened.
-  I'm thinking of responding without using workspace for now.
-  To use workspace, uncomment out the file below and select project.code-workspace from the menu "File > Open Workspace with File".
-  - apps/admin-api/.vscode
-  - apps/user-api/.vscode
-  - project.code-workspace
-
-4. Add a refresh token mechanism to the front side
-5. Standardize the authentication logic for admin-api- and user-api
-
 ## function name of restapi
 
 Please enter the name of each function below.
