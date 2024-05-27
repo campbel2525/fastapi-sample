@@ -26,9 +26,9 @@ fastapi や next.js は勉強中ですので、何か不備がありましたら
 管理側、ユーザー側を作ってあります。下記の url に対応しています
 
 - 管理側の api: admin-api
-  - http://localhost:8000/docks
+  - http://localhost:8000/docs
 - ユーザー側の api: user-api
-  - http://localhost:8001/docks
+  - http://localhost:8001/docs
 - 管理側のフロント: admin-front
   - http://localhost:3000/
 - ユーザー側のフロント: user-front
@@ -65,7 +65,7 @@ make admin-api-run
 ```
 
 を実行してブラウザで
-http://localhost:8000/docks
+http://localhost:8000/docs
 にアクセスする
 
 手順 4 admin-front の立ち上げ方法

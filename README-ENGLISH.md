@@ -24,9 +24,9 @@ I'm still learning fastapi and next.js, so I apologize if there are any mistakes
 We have created an administrator side and a user side. The following URLs are supported
 
 - Admin side api: admin-api
-  - http://localhost:8000/docks
+  - http://localhost:8000/docs
 - User-side api: user-api
-  - http://localhost:8001/docks
+  - http://localhost:8001/docs
 - Admin front: admin-front
   - http://localhost:3000/
 - User-side front: user-front
@@ -63,7 +63,7 @@ make admin-api-run
 ```
 
 in your browser by running
-http://localhost:8000/docks
+http://localhost:8000/docs
 access
 
 Step 4 How to launch admin-front
