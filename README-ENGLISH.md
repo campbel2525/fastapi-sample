@@ -4,11 +4,11 @@ It's still under development, so the code will change a lot.
 
 # Technology stack
 
-Backend side: python fastapi
-Front end side: next.js(app router)
-Infrastructure: AWS
-iac:terraform
-Development environment: docker
+- Backend side: python fastapi
+- Front end side: next.js(app router)
+- Infrastructure: AWS
+- iac:terraform
+- Development environment: docker
 
 # overview
 
