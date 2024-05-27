@@ -26,9 +26,9 @@ fastapi や next.js は勉強中ですので、何か不備がありましたら
 管理側、ユーザー側を作ってあります。下記の url に対応しています
 
 - 管理側の api: admin-api
-  - http://localhost:8000/docks
+  - http://localhost:8000/
 - ユーザー側の api: user-api
-  - http://localhost:8001/docks
+  - http://localhost:8001/
 - 管理側のフロント: admin-front
   - http://localhost:3000/
 - ユーザー側のフロント: user-front
@@ -37,11 +37,11 @@ fastapi や next.js は勉強中ですので、何か不備がありましたら
 ## サンプルユーザー
 
 管理側
-admin1@example.com
+admin1@example.com  
 test1234
 
 ユーザー側
-user1@example.com
+user1@example.com  
 test1234
 
 ## 環境構築方法
