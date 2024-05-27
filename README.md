@@ -189,18 +189,6 @@ pipenv run alembic upgrade head
 make migrate
 ```
 
-## restapi の関数名
-
-それぞれの関数名は下記でよろしくお願いします
-なんでもいいのですが djangorest framework を参考にしました
-https://www.django-rest-framework.org/api-guide/viewsets/
-
-- 一覧: index
-- 詳細取得: retrieve
-- 作成: create
-- 更新: update
-- 削除: destroy
-
 # 運用
 
 ## ブランチ運用
