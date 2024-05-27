@@ -6,11 +6,11 @@
 
 # 技術スタック
 
-バックエンド側: python の fastapi
-フロントエンド側: next.js(app router)
-インフラ: AWS
-iac: terraform
-開発環境: docker
+- バックエンド側: python の fastapi
+- フロントエンド側: next.js(app router)
+- インフラ: AWS
+- iac: terraform
+- 開発環境: docker
 
 # 概要
 
